@@ -2,7 +2,7 @@
 // src/AppBundle/Controller/LuckyController.php
 namespace AppBundle\Controller;
 
-use Symfony\Component\HttpFoundation\Response;
+// use Symfony\Component\HttpFoundation\Response;
 
 
 use Symfony\Component\Routing\Annotation\Route;
@@ -19,8 +19,7 @@ class UserController extends Controller
 
         // echo "user";
 
-        return new Response('ok'
-        );
+        return $this->render('test/test.html.twig');
         
     }
 }
